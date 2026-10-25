@@ -1,0 +1,14 @@
+{
+ "arq": "gru",
+ "oculto": 128,
+ "capas": 2,
+ "dropout": 0.2,
+ "lr": 0.001,
+ "opt": "adam",
+ "wd": 0.001,
+ "ventana": 14,
+ "residual": false,
+ "lote": 32,
+ "epocas": 100,
+ "paciencia": 15
+}

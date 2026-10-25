@@ -1,0 +1,7 @@
+,MAE,RMSE,sMAPE,MASE,MAE_desv
+Persistencia,5.19,7.109,19.929,0.701,
+Estacional semanal,5.819,7.927,23.957,0.786,
+Media móvil 7 días,4.386,5.918,17.893,0.593,
+Ridge con rezagos,4.38,5.892,18.314,0.592,
+GRU final (media de 5 semillas),4.128,5.603,16.936,0.558,0.036
+GRU final (ensamble de 5 semillas),4.088,5.559,16.746,0.552,

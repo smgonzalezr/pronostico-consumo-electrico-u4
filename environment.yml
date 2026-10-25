@@ -1,0 +1,16 @@
+name: u4a2
+channels: [conda-forge]
+dependencies:
+  - python=3.13
+  - pytorch=2.14.1=cpu*
+  - pandas=3.1
+  - numpy
+  - scikit-learn=1.9
+  - scipy
+  - matplotlib=3.11
+  - nbformat
+  - nbconvert
+  - ipykernel
+  - pip
+  - pip:
+    - mlflow-skinny==3.17.2

@@ -1,0 +1,64 @@
+{
+ "cfg": {
+  "arq": "gru",
+  "oculto": 128,
+  "capas": 2,
+  "dropout": 0.2,
+  "lr": 0.001,
+  "opt": "adam",
+  "wd": 0.001,
+  "ventana": 14,
+  "residual": false,
+  "lote": 32,
+  "epocas": 100,
+  "paciencia": 15
+ },
+ "test_por_semilla": [
+  {
+   "semilla": 101,
+   "mae_train_sin_dropout": 4.794159889221191,
+   "mae_val": 3.428215980529785,
+   "mae_test": 4.106972694396973,
+   "epoca": 34,
+   "segundos": 404.8830599784851
+  },
+  {
+   "semilla": 202,
+   "mae_train_sin_dropout": 4.7721781730651855,
+   "mae_val": 3.45536732673645,
+   "mae_test": 4.157591342926025,
+   "epoca": 39,
+   "segundos": 463.3685791492462
+  },
+  {
+   "semilla": 303,
+   "mae_train_sin_dropout": 4.886202335357666,
+   "mae_val": 3.509636878967285,
+   "mae_test": 4.117697238922119,
+   "epoca": 27,
+   "segundos": 351.1092412471771
+  },
+  {
+   "semilla": 404,
+   "mae_train_sin_dropout": 4.92772912979126,
+   "mae_val": 3.5607340335845947,
+   "mae_test": 4.085346221923828,
+   "epoca": 20,
+   "segundos": 288.1052334308624
+  },
+  {
+   "semilla": 505,
+   "mae_train_sin_dropout": 4.903081893920898,
+   "mae_val": 3.484363079071045,
+   "mae_test": 4.173666954040527,
+   "epoca": 26,
+   "segundos": 349.1448302268982
+  }
+ ],
+ "versiones": {
+  "torch": "2.14.1",
+  "mlflow": "3.17.2",
+  "numpy": "2.5.4",
+  "pandas": "3.1.0"
+ }
+}

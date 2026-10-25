@@ -1,0 +1,5 @@
+base,MAE_base,MAE_modelo,reduccion_kwh,reduccion_pct,IC95_inf,IC95_sup,DM,p_valor
+Media móvil 7 días,4.3864,4.0884,0.2979,6.7926,-0.0551,0.6388,1.8943,0.0295
+Ridge con rezagos,4.3797,4.0884,0.2913,6.6508,-0.0087,0.5174,2.4378,0.0077
+Persistencia,5.1895,4.0884,1.1011,21.2175,0.5931,1.5313,4.9741,0.0
+Estacional semanal,5.8194,4.0884,1.731,29.7445,0.9349,2.574,6.2704,0.0
