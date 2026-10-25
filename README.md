@@ -2,7 +2,12 @@
 
 Proyecto integrador de Técnicas avanzadas de modelado de IA, Unidad 4, actividad 2.
 
-Integrantes: Saud Mauricio González Rodríguez.
+Integrantes: 
+
+* Gloria Yaned Leguizamon Arboleda.
+* Ricardo Sandoval Chaves.
+* Saud Mauricio Gonzales Rodriguez.
+* Ernesto Ilich Contreras Hernandez.
 
 ## Contenido
 
